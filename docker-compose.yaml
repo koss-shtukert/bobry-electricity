@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  bobry-electricity:
+    container_name: "bobry-electricity"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8085"
+    command: sh -c "/app/bin/main"
