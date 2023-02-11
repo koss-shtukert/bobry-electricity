@@ -7,7 +7,7 @@ on:
 env:
   GH_REGISTRY: ghcr.io # Github registry
   FULL_IMAGE_NAME: ${{ github.repository }} # full image name: owner/image
-  IMAGE_NAME: bobrybot # image name: image
+  IMAGE_NAME: bobry-electricity # image name: image
 
 jobs:
   build-image:
